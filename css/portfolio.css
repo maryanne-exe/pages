@@ -163,9 +163,19 @@ a:focus {
         transition: background .3s ease-in-out,padding .3s ease-in-out;
     }
 
-    .navbar-custom.top-nav-collapse {
+
+    .navbar-custom-work {
+        background: rgba(255,255,255,.9);
+    }
+
+    .navbar-custom-index.top-nav-collapse {
         padding: 0;
         background: rgba(43,61,81,.7);
+    }
+
+    .navbar-custom-work.top-nav-collapse {
+        padding: 0;
+        background: rgba(255,255,255,.8);
     }
 
     /*my name*/
@@ -177,6 +187,7 @@ a:focus {
         transition: all .3s;
     }
 }
+
 
 .btn {
     border-radius: 0;

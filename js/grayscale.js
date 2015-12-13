@@ -24,6 +24,12 @@ $(function() {
     });
 });
 
+$('.navbar-brand').hover(function() {
+    $('.fa-square').addClass('fa-spin');
+}, function() {
+    $('.fa-square').removeClass('fa-spin');
+});
+
 
 // Script for modal title
 $('#skillModal').on('show.bs.modal', function(event)  {
@@ -86,30 +92,30 @@ $('#skillModal').on('show.bs.modal', function(event)  {
             switch($sel) {
                 case 0:
                     $('.imgCaption').text("I move to wireframing step when I have general thoughts and solutions regarding UX after sketching and research process. Putting those ideas down raises questions and leads to changes.");
-                    $('.imgName').text("1");
+                    $('.imgName').text("1. Main idea");
                     break;
                 case 1:
                     $('.imgCaption').text("Wireframing helps me to keep design process iterative and consistent.");
-                    $('.imgName').text("2");
+                    $('.imgName').text("2. Iteratively");
                     break;
                 case 2:
                     $('.imgCaption').text("I use deliverables in documents and share them with a team. It helps me involve everyone to process and gain feedback.");
-                    $('.imgName').text("3");
+                    $('.imgName').text("3. For documents");
                     break;
                 case 3:
                     $('.imgCaption').text("Also I keep things very simple and limit the color in case not to be distracted with details and save time.");
-                    $('.imgName').text("4");
+                    $('.imgName').text("4. Simplicity");
                     break;
             }
         }
         else if ($skill == "Working Prototypes") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("");
+                    $('.imgCaption').text("Xcode");
                     $('.imgName').text("1");
                     break;
                 case 1:
-                    $('.imgCaption').text("");
+                    $('.imgCaption').text("Xamarin");
                     $('.imgName').text("2");
                     break;
             }
@@ -161,11 +167,11 @@ $('#skillModal').on('show.bs.modal', function(event)  {
         else if ($skill == "Interface Design") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("");
+                    $('.imgCaption').text("I move to design stage when work on structure and user flows is finished, at this step I have deliverables like wireframes, application map, UX documentation and descriptions. As a main tool in this process I prefer to use Sketch.");
                     $('.imgName').text("1");
                     break;
                 case 1:
-                    $('.imgCaption').text("");
+                    $('.imgCaption').text("At this step I pay more attention for consistency, effectiveness, contrast and clarity of the interface, also align elements with grids, use white spaces and accurately organize elements.");
                     $('.imgName').text("2");
                     break;
             }
