@@ -80,11 +80,11 @@ $('#skillModal').on('show.bs.modal', function(event)  {
             switch($sel) {
                 case 0:
                     $('.imgCaption').text("Paper prototyping helps to brainstorm ideas, find best approaches quickly, and detect potential flaws in my solutions before they go to developing reducing the need for changes in further process. I try to generate, review and analyze as much approaches to the problem as possible in case not miss anything. My tools at this stage are paper and markers.");
-                    $('.imgName').text("1. It’s about getting ideas out");
+                    $('.imgName').text("1/2. It’s about getting ideas out");
                     break;
                 case 1:
                     $('.imgCaption').text("My goal for sketching is to visualize my ideas, determine right and inappropriate solutions as fast as possible, and share my thoughts with team if needed. It helps to quickly describe ideas to teammates without getting into details which unnecessary on specific stage. The purpose is to find best solutions to work further.");
-                    $('.imgName').text("2. Sketches are for sharing");
+                    $('.imgName').text("2/2. Sketches are for sharing");
                     break;
             }
         }
@@ -92,31 +92,31 @@ $('#skillModal').on('show.bs.modal', function(event)  {
             switch($sel) {
                 case 0:
                     $('.imgCaption').text("I move to wireframing step when I have general thoughts and solutions regarding UX after sketching and research process. Putting those ideas down raises questions and leads to changes.");
-                    $('.imgName').text("1. Main idea");
+                    $('.imgName').text("1/4. Main idea");
                     break;
                 case 1:
                     $('.imgCaption').text("Wireframing helps me to keep design process iterative and consistent.");
-                    $('.imgName').text("2. Iteratively");
+                    $('.imgName').text("2/4. Iteratively");
                     break;
                 case 2:
                     $('.imgCaption').text("I use deliverables in documents and share them with a team. It helps me involve everyone to process and gain feedback.");
-                    $('.imgName').text("3. For documents");
+                    $('.imgName').text("3/4. For documents");
                     break;
                 case 3:
                     $('.imgCaption').text("Also I keep things very simple and limit the color in case not to be distracted with details and save time.");
-                    $('.imgName').text("4. Simplicity");
+                    $('.imgName').text("4/4. Simplicity");
                     break;
             }
         }
         else if ($skill == "Working Prototypes") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("Xcode");
-                    $('.imgName').text("1");
+                    $('.imgCaption').text("I think that designer must have the understanding how controls and UI elements would be implemented: it could save plenty of time in discussions and checking UI implementation for compliance.");
+                    $('.imgName').text("1/2");
                     break;
                 case 1:
-                    $('.imgCaption').text("Xamarin");
-                    $('.imgName').text("2");
+                    $('.imgCaption').text("Depending on purpose I also create interactive prototypes based on graphic deliverables and images for presentations.");
+                    $('.imgName').text("2/2");
                     break;
             }
         }
@@ -124,11 +124,11 @@ $('#skillModal').on('show.bs.modal', function(event)  {
             switch($sel) {
                 case 0:
                     $('.imgCaption').text("I believe that dealing with content structure and organization at first determine how to proceed with overall user experience, so this process require to think critical, creative and logical at the same time. Amount of time spend to this process depends on complicity of software, but it is fundamental part of user experience even in developing simple applications.");
-                    $('.imgName').text("1");
+                    $('.imgName').text("1/1");
                     break;
             }
         }
-        else if ($skill == "User Cases") {
+        else if ($skill == "Use Cases") {
             switch($sel) {
                 case 0:
                     $('.imgCaption').text("");
@@ -143,12 +143,12 @@ $('#skillModal').on('show.bs.modal', function(event)  {
         else if ($skill == "Documents") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("");
-                    $('.imgName').text("1");
+                    $('.imgCaption').text("Main goal of writing UX documentations for me is to make them usable and useful. To achieve this, firstly I understand for whom I create document. Usually I was responsible to create guides for UI developers and project managers. I choose right language, avoid specific words and worthless information.");
+                    $('.imgName').text("1/2. Purpose");
                     break;
                 case 1:
-                    $('.imgCaption').text("");
-                    $('.imgName').text("2");
+                    $('.imgCaption').text("The approach to begin working on document as early as possible works best for me, because it is less likely to forgot to include important details. Such kind of document could consist of personas, descriptions of informational architecture, and design guidelines.");
+                    $('.imgName').text("2/2");
                     break;
             }
         }
@@ -167,12 +167,12 @@ $('#skillModal').on('show.bs.modal', function(event)  {
         else if ($skill == "Interface Design") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("I move to design stage when work on structure and user flows is finished, at this step I have deliverables like wireframes, application map, UX documentation and descriptions. As a main tool in this process I prefer to use Sketch.");
-                    $('.imgName').text("1");
+                    $('.imgCaption').text("I move to design stage when work on structure and user flows is finished, at this step I have deliverables like wireframes, application map, UX documentation and descriptions. Recently as a main tool I prefer to use Sketch, but I also experinced with Adobe products.");
+                    $('.imgName').text("1/2");
                     break;
                 case 1:
                     $('.imgCaption').text("At this step I pay more attention for consistency, effectiveness, contrast and clarity of the interface, also align elements with grids, use white spaces and accurately organize elements.");
-                    $('.imgName').text("2");
+                    $('.imgName').text("2/2");
                     break;
             }
 
