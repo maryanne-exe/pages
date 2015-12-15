@@ -65,7 +65,7 @@ $('#skillModal').on('show.bs.modal', function(event)  {
         };
 
         $('#preview-image').attr('src', "img/"+skillName+"_"+current_image+".png");
-        $('.imgCaption').text(current_image);
+        $('.description').text(current_image);
 
         updateCaption(current_image, skillName);
 
@@ -79,100 +79,107 @@ $('#skillModal').on('show.bs.modal', function(event)  {
         if ($skill == "Rapid sketches") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("Paper prototyping helps to brainstorm ideas, find best approaches quickly, and detect potential flaws in my solutions before they go to developing reducing the need for changes in further process. I try to generate, review and analyze as much approaches to the problem as possible in case not miss anything. My tools at this stage are paper and markers.");
                     $('.imgName').text("1/2. It’s about getting ideas out");
+                    $('.description').text("Paper prototyping helps to brainstorm ideas, find best approaches quickly, and detect potential flaws in my solutions before they go to developing reducing the need for changes in further process. I try to generate, review and analyze as much approaches to the problem as possible in case not miss anything. My tools at this stage are paper and markers.");
+                    $('.imgCaption').text("Sketches for 3d-printer remote control web-interface");
                     break;
                 case 1:
-                    $('.imgCaption').text("My goal for sketching is to visualize my ideas, determine right and inappropriate solutions as fast as possible, and share my thoughts with team if needed. It helps to quickly describe ideas to teammates without getting into details which unnecessary on specific stage. The purpose is to find best solutions to work further.");
                     $('.imgName').text("2/2. Sketches are for sharing");
+                    $('.description').text("My goal for sketching is to visualize my ideas, determine right and inappropriate solutions as fast as possible, and share my thoughts with team if needed. It helps to quickly describe ideas to teammates without getting into details which unnecessary on specific stage. The purpose is to find best solutions to work further.");
+                    $('.imgCaption').text("Process");
                     break;
             }
         }
         else if ($skill == "Wireframes") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("I move to wireframing step when I have general thoughts and solutions regarding UX after sketching and research process. Putting those ideas down raises questions and leads to changes.");
                     $('.imgName').text("1/4. Main idea");
+                    $('.description').text("I move to wireframing step when I have general thoughts and solutions regarding UX after sketching and research process. Putting those ideas down raises questions and leads to changes.");
+                    $('.imgCaption').text("High-fidelity wireframes for iOS application created in Sketch");
                     break;
                 case 1:
-                    $('.imgCaption').text("Wireframing helps me to keep design process iterative and consistent.");
                     $('.imgName').text("2/4. Iteratively");
+                    $('.description').text("Wireframing helps me to keep design process iterative and consistent.");
+                    $('.imgCaption').text("Wireframes fow web-based news service created in UXpin");
                     break;
                 case 2:
-                    $('.imgCaption').text("I use deliverables in documents and share them with a team. It helps me involve everyone to process and gain feedback.");
                     $('.imgName').text("3/4. For documents");
+                    $('.description').text("I use deliverables in documents and share them with a team. It helps me involve everyone to process and gain feedback.");
+                    $('.imgCaption').text("Descriptions for UI improvments for one SaaS product");
                     break;
                 case 3:
-                    $('.imgCaption').text("Also I keep things very simple and limit the color in case not to be distracted with details and save time.");
                     $('.imgName').text("4/4. Simplicity");
+                    $('.description').text("Also I keep things very simple and limit the color in case not to be distracted with details and save time.");
+                    $('.imgCaption').text("Wireframe for registration page created in Balsamiq");
                     break;
             }
         }
         else if ($skill == "Working Prototypes") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("I think that designer must have the understanding how controls and UI elements would be implemented: it could save plenty of time in discussions and checking UI implementation for compliance.");
                     $('.imgName').text("1/2");
+                    $('.description').text("I think that designer must have the understanding how controls and UI elements would be implemented: it could save plenty of time in discussions and while checking UI implementation for compliance.");
+                    $('.imgCaption').text("UI prototype for IOS app in Xcode");
                     break;
                 case 1:
-                    $('.imgCaption').text("Depending on purpose I also create interactive prototypes based on graphic deliverables and images for presentations.");
                     $('.imgName').text("2/2");
+                    $('.description').text("Depending on purpose I also create interactive prototypes in InVision based on graphic deliverables and images for presentations.");
+                    $('.imgCaption').text("UI prototype for IOS app in Xamarin Studio built with c#");
                     break;
             }
         }
         else if ($skill == "Architecture") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("I believe that dealing with content structure and organization at first determine how to proceed with overall user experience, so this process require to think critical, creative and logical at the same time. Amount of time spend to this process depends on complicity of software, but it is fundamental part of user experience even in developing simple applications.");
                     $('.imgName').text("1/1");
+                    $('.description').text("I believe that dealing with content structure and organization at first determine how to proceed with overall user experience, so this process require to think critical, creative and logical at the same time. Amount of time spend to this process depends on complicity of software, but it is fundamental part of user experience even in developing simple applications.");
+                    $('.imgCaption').text("Flow for desktop app");
                     break;
             }
         }
         else if ($skill == "Use Cases") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("");
-                    $('.imgName').text("1");
-                    break;
-                case 1:
-                    $('.imgCaption').text("");
-                    $('.imgName').text("2");
+                    $('.imgName').text("1/1");
+                    $('.description').text("With use cases I show representation of functional requirements without taking into account specific interface details. This approach helps me to analyze interaction between user and system. I prefer to write use cases in simple English as a list of steps.");
+                    $('.imgCaption').text("Simple case for TeamCity project");
                     break;
             }
         }
         else if ($skill == "Documents") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("Main goal of writing UX documentations for me is to make them usable and useful. To achieve this, firstly I understand for whom I create document. Usually I was responsible to create guides for UI developers and project managers. I choose right language, avoid specific words and worthless information.");
                     $('.imgName').text("1/2. Purpose");
+                    $('.description').text("Main goal of writing UX documentations for me is to make them usable and useful. To achieve this, firstly I understand for whom I create document. Usually I was responsible to create guides for UI developers and project managers. I choose right language, avoid specific words and worthless information.");
+                    $('.imgCaption').text("Part of style guide for QT project");
                     break;
                 case 1:
-                    $('.imgCaption').text("The approach to begin working on document as early as possible works best for me, because it is less likely to forgot to include important details. Such kind of document could consist of personas, descriptions of informational architecture, and design guidelines.");
                     $('.imgName').text("2/2");
+                    $('.description').text("The approach to begin working on document as early as possible works best for me, because it is less likely to forgot to include important details. Such kind of document could consist of personas, descriptions of informational architecture, and design guidelines.");
+                    $('.imgCaption').text("Sizes description for window in TeamCity");
                     break;
             }
         }
         else if ($skill == "Psychology") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("");
-                    $('.imgName').text("1");
-                    break;
-                case 1:
-                    $('.imgCaption').text("");
-                    $('.imgName').text("2");
+                    $('.imgName').text("1/1");
+                    $('.description').text("I apply my knowledge in psychology while working on interfaces: consider researches on how humans perceive visual information and make decisions.");
+                    $('.imgCaption').text("Sidebar improvments: items oredered and grouped as primary and secondary for better perception, improved icons and naming");
                     break;
             }
         }
         else if ($skill == "Interface Design") {
             switch($sel) {
                 case 0:
-                    $('.imgCaption').text("I move to design stage when work on structure and user flows is finished, at this step I have deliverables like wireframes, application map, UX documentation and descriptions. Recently as a main tool I prefer to use Sketch, but I also experinced with Adobe products.");
                     $('.imgName').text("1/2");
+                    $('.description').text("I move to design stage when work on structure and user flows is finished, at this step I have deliverables like wireframes, application map, UX documentation and descriptions. Recently as a main tool I prefer to use Sketch, but I also experinced with Adobe products.");
+                    $('.imgCaption').text("Design for iOS application");
                     break;
                 case 1:
-                    $('.imgCaption').text("At this step I pay more attention for consistency, effectiveness, contrast and clarity of the interface, also align elements with grids, use white spaces and accurately organize elements.");
                     $('.imgName').text("2/2");
+                    $('.description').text("At this step I pay more attention for consistency, effectiveness, contrast and clarity of the interface, also align elements with grids, use white spaces and accurately organize elements.");
+                    $('.imgCaption').text("Table design for Material Design project");
                     break;
             }
 
