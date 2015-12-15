@@ -56,6 +56,10 @@ a::selection {
     color: #10C0DD;
     background: #E2F4CC;
 }
+i::selection {
+    color: #000;
+    background: #E2F4CC;
+}
 
 p {
     /*margin: 0 0 25px;*/
