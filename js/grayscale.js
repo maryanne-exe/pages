@@ -137,7 +137,7 @@ $('#skillModal').on('show.bs.modal', function(event)  {
                     break;
             }
         }
-        else if ($skill == "Use Cases") {
+        else if ($skill == "Use cases") {
             switch($sel) {
                 case 0:
                     $('.imgName').text("1/1");
