@@ -43,6 +43,7 @@ $('#skillModal').on('show.bs.modal', function(event)  {
     modal.find('.modal-title').text(skillName);
     var imgQuantity = trigger.data('caption'); //Get number of images from skill
     $('#preview-image').attr('src', "img/"+skillName+"_"+current_image+".png");
+    $('#preview-image').attr('alt', skillName+" "+current_image);
 
     updateCaption(current_image, skillName);
 
@@ -65,6 +66,7 @@ $('#skillModal').on('show.bs.modal', function(event)  {
         };
 
         $('#preview-image').attr('src', "img/"+skillName+"_"+current_image+".png");
+        $('#preview-image').attr('alt', skillName+" "+current_image);
         $('.description').text(current_image);
 
         updateCaption(current_image, skillName);
