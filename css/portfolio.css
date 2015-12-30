@@ -535,10 +535,10 @@ a:focus {
 }
 */
 .thoughts {
-    background-color: #10C0DD;
+    background-color: #fff;
 }
-.thoughts p {
-    color: #fff;
+.thoughts p, h2 {
+    color: #000;
 }
 .thoughts .pic {
     padding-top: 50px;
@@ -548,6 +548,12 @@ a:focus {
     text-align: left;
 }
 
+
+  input#hcb_form_name {
+    color:blue;
+    font-size:18px;
+    background-color:#000;
+  }
 
 .contact {
     border-top: 1px solid #e5e5e5;
