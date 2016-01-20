@@ -694,6 +694,21 @@ footer p {
     margin-bottom: 80px;
 }
 
+
+@media(max-width:768px) {
+    .case {
+
+        padding: 0 70px 0 70px;
+    }
+    .case-intro {
+        display: table;
+        padding: 0 70px 0 70px;
+    }
+}
+
+
+
+
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
