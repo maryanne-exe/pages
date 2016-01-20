@@ -180,20 +180,30 @@ a:focus {
 
 
 
-/*    .navbar-custom-work {
+    .navbar-custom-work {
         background: rgba(255,255,255,.9);
-    }*/
+    }
+
+    .navbar-custom-work i {
+        color: #000;
+    }
+
+     .navbar-custom-work .logo {
+        color: #000;
+    }
+
+
 
     .navbar-custom-index.top-nav-collapse {
         padding: 0;
         background: rgba(43,61,81,.7);
     }
 
-/*    .navbar-custom-work.top-nav-collapse {
+    .navbar-custom-work.top-nav-collapse {
         padding: 0;
         background: rgba(255,255,255,.8);
     }
-*/
+
     /*my name*/
     .navbar-custom.top-nav-collapse .logo {
         font-size: 14px;
@@ -204,6 +214,15 @@ a:focus {
     }
 }
 
+/*    @media(max-width:768px) {
+        .navbar-custom-work i {
+            color: #fff;
+    }
+    .navbar-custom-work .logo {
+        color: #fff;
+    }*/
+
+}
 
 .btn {
     border-radius: 0;
