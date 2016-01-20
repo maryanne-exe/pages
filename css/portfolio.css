@@ -124,6 +124,7 @@ a:focus {
         -moz-transition: background .3s ease-in-out,padding .3s ease-in-out;
         transition: background .3s ease-in-out,padding .3s ease-in-out;
     }
+}
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
@@ -212,7 +213,7 @@ a:focus {
         -moz-transition: all .3s;
         transition: all .3s;
     }
-}
+
 
 /*    @media(max-width:768px) {
         .navbar-custom-work i {
@@ -222,7 +223,6 @@ a:focus {
         color: #fff;
     }*/
 
-}
 
 .btn {
     border-radius: 0;
