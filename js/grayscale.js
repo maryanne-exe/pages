@@ -139,7 +139,7 @@ $('#skillModal').on('show.bs.modal', function(event)  {
                     break;
             }
         }
-        else if ($skill == "User researches") {
+        else if ($skill == "User Researches") {
             switch($sel) {
                 case 0:
                     $('.imgName').text("1/1");
