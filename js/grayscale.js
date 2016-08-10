@@ -148,7 +148,7 @@ $('#skillModal').on('show.bs.modal', function(event)  {
                     break;
             }
         }
-        else if ($skill == "Documents") {
+        else if ($skill == "Guidelines") {
             switch($sel) {
                 case 0:
                     $('.imgName').text("1/3.");
