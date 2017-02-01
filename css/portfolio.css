@@ -215,14 +215,6 @@ a:focus {
     }
 
 
-/*    @media(max-width:768px) {
-        .navbar-custom-work i {
-            color: #fff;
-    }
-    .navbar-custom-work .logo {
-        color: #fff;
-    }*/
-
 
 .btn {
     border-radius: 0;
@@ -234,17 +226,34 @@ a:focus {
     transition: all .3s ease-in-out;
 }
 .btn-default {
-    border: 1px solid #10C0DD;
+    border: 2px solid #10C0DD;
     color: #10C0DD;
     background-color: transparent;
+    margin-right: 20px;
 }
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #10C0DD;
+    border: 2px solid #009BB5;
     outline: 0;
     color: #fff;
     background-color: #10C0DD;
 }
+
+
+.btn-secondary {
+    border: 2px solid #9F9F9F;
+    color: #9F9F9F;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+    border: 2px solid #009BB5;
+    outline: 0;
+    color: #fff;
+    background-color: #10C0DD;
+}
+
 
 /*round buttons*/
 .btn-white{
@@ -287,7 +296,7 @@ a:focus {
 .btn-colored:hover,
 .btn-colored:focus {
     color: #fff;
-    border-color: #10C0DD;
+    border-color: #009BB5;
     background: #10C0DD;
 }
 
@@ -414,8 +423,7 @@ a:focus {
 .content {
     display: table;
     width: 100%;
-    height: auto;
-    min-height: 600px;
+    
     text-align: center;
     padding: 100px 0;
     -webkit-background-size: cover;
@@ -607,7 +615,7 @@ a:focus {
 }
 
 
-  input#hcb_form_name {
+input#hcb_form_name {
     color:blue;
     font-size:18px;
     background-color:#000;
@@ -616,6 +624,8 @@ a:focus {
 .contact {
     border-top: 1px solid #e5e5e5;
     text-align: left;
+    background-color: #444444;
+    padding-top: 100px;
 }
 .contact .item i {
     font-size: 20px;
@@ -623,13 +633,12 @@ a:focus {
 }
 .contact p {
     display: inline;
+    color: #fff;
 }
 .contact .social {
     padding-top: 20px;
 }
-.contact .container {
-    padding-top: 100px;
-}
+
 .contact .btn-social {
     width: 50px;
     height: 50px;
@@ -652,35 +661,14 @@ a:focus {
 
 
 
-
-/*ul.banner-social-buttons {
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons li {
-        display: table;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
-    }
-}*/
-
 footer {
     padding: 40px 0;
+    background-color: #2F2F2F;
 }
 
-footer p {
+footer h6 {
     margin: 0;
+    color: #9F9F9F;
 }
 
 
@@ -708,6 +696,9 @@ footer p {
 .case p {
     margin-bottom: 30px;
     
+}
+.case i {
+    color: #ccc;
 }
 .case img {
     margin-bottom: 80px;

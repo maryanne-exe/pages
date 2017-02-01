@@ -190,7 +190,7 @@ $('#skillModal').on('show.bs.modal', function(event)  {
                     break;
                 case 1:
                     $('.imgName').text("2/3");
-                    $('.description').text("As the main tool I prefer to use Sketch, but I'm experienced with Adobe products as well.");
+                    $('.description').text("As the main tool I prefer to use Sketch, but I'm proficient in Adobe products as well.");
                     $('.imgCaption').text("Design for iOS application");
                     break;
                 case 2:
