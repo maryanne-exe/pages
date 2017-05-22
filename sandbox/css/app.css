@@ -1,0 +1,50 @@
+/* CSS Document */
+
+body { font-family: 'Ubuntu'; background: #2C2234; color: #F1F1F1; font-weight: 300; font-size: 12px/18px;} 
+p {margin-bottom: 18px; line-height: 1.3em }
+li {  line-height: 1.3em }
+
+ol li {list-style: outside decimal }
+ol {margin-bottom: 10px; margin-left: 40px; }
+h1 {font-size: 44px; margin: 90px 0 80px; line-height: 48px }
+h2 {font-size: 34px; margin-bottom: 14px; padding: 50px 0 18px; font-weight: 300; line-height: 34px; text-align: center }
+h3 {font-size: 24px; margin-bottom: 23px; font-weight: 300; line-height: 26px; text-align: center  }
+h4 {font-size: 22px; margin: 20px 0; font-weight: 300; line-height: 28px }
+h5 {font-size: 20px; margin-bottom: 10px; font-weight: 300; line-height: 20px }
+h6 {font-size: 18px; margin-bottom: 10px; font-weight: 300; line-height: 18px }
+
+hr { border: 1px solid #FFFFFF; margin: 30px 0 }
+
+h1 span, h2 span {color: #BAB940 }
+
+.alignright {float: right; margin: 0 0 10px 10px} 
+#home p {margin-bottom: 30px }
+#logo {margin-top: 120px; }
+#site-navigation.fixed{ position:fixed; z-index: 9999;  top:0; left: 0;  }
+#site-navigation { background: #2C2234; -webkit-transition: all .4s; transition: all .6s; position: relative; width: 100%; text-align: center}
+.nav  {display: inline-block; float: none; margin: 0 auto }
+.nav  li {display: inline-block; margin: 5px 25px; font-size: 1.2em }
+.nav  li a {color: #FFF; text-decoration: none; }
+
+a { color: #BAB940} 
+a:hover { color: #FFFFFF} 
+
+strong {font-weight: 400; font-size: 1.1em}
+
+p.capitel { margin-bottom: 40px; }
+.fa-ul li {margin-bottom: 20px }
+.fa-ul li i.fa-li { color: #BAB940 }
+.even {background: #175656 }
+
+.question i {font-size: 1.2em; color:  #BAB940 }
+
+.panel {background: rgba(255,255,255,0.1); margin: 0 0 40px; padding: 40px 40px 20px; }
+
+.developer {font-size: 4em; margin: 0 0 30px;}
+.developer i { color: #BAB940; text-shadow: 2px 2px 1px #FFF, 0 0 0 #000, 2px 2px 1px #FFF; }
+
+.developeri {font-size: 4em; margin: 0 0 30px;}
+.developeri i { color: #BAB940; text-shadow: 2px 2px 1px #FFF, 0 0 0 #000, 2px 2px 1px #FFF; }
+
+#place {position: absolute; top: 20px; left: 40px; width: 240px; background: #BAB940; padding: 20px;} 
+#footer {position: relative }
